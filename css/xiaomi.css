@@ -1,0 +1,927 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/* log图 */
+.log{
+	width: 100%;
+	height: 120px;
+	background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/717ab555092563ae0751a7069f0b11da.jpeg") 50%;
+	 background-size:auto 120px
+}
+/* 导航栏 */
+.nav{
+	width: 100%;
+	height: 40px;
+	background-color: #333333;
+}
+.listdiv{
+	height: 40px;
+	width: 1226px;
+	margin: 0 auto;
+}
+.nav .listdiv ul{
+	list-style: none;
+	margin: 0;
+}
+.nav .listdiv ul li{
+	float: left;
+}
+.nav .listdiv ul li span{
+	font-size: 14px;
+	color: #424242;
+	margin: 0 3.6px;
+}
+.nav .listdiv ul li a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #B0B0B0;
+	font-family: Helvetica Neue,Helvetica,Arial;
+	line-height: 40px;
+}
+.nav .listdiv ul li a:hover{
+	color: white;
+}
+ .nav .listdiv .shopping_car{
+	height: 40px;
+	width: 120px;
+	background-color: #424242;
+	float: right;
+}
+.shopping_car i{
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	margin-left: 10px;
+	line-height: 40px;
+	color: #B0B0B0;
+}
+.shopping_car a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #B0B0B0;
+	font-family: Helvetica Neue,Helvetica,Arial;
+	margin-left: 5px;
+} 
+.shopping_car a:hover{
+	display: block;
+	height: 40px;
+	width: 120px;
+	color: red;
+	background-color: white;
+}
+.nav .listdiv .nav_right{
+	float: right;
+	margin-right: 15px;
+}
+/* 横栏带搜索框分类菜单的div */
+.menudiv{
+	width: 1226px;
+	height: 80px;
+	margin: auto;
+	margin-top: 20px;
+}
+.menudiv .menudiv_inner{
+}
+.logodiv{
+	width: 55px;
+	height: 55px;
+	float: left;
+	background-color: #ff6700;
+	background-image: url("https://s01.mifile.cn/i/mi-logo.png");
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+
+.menudiv ul{
+	list-style-type: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: 230px;
+}
+.menudiv ul li{
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.menudiv ul li a{
+	line-height: 70px;
+	text-decoration: none;
+	color: #333;
+	font-size: 16px;
+	font-family: Helvetica Neue,Helvetica;
+}
+.menudiv ul li a:hover{
+	color: #ff6700;
+}
+
+.menudiv .input{
+	width: 297px;
+	height: 55px;
+	border: 1px #E0E0E0 solid;
+	float: right;
+	margin: 0;
+}
+.txt{
+	border: none;
+	width: 245px;
+	height: 55px;
+	font-size: 14px;
+	margin: 0;
+}
+ .submit{
+	margin: 0;
+	height: 55px;
+	width: 52px;
+	border: none;
+	border-left: 1px #E0E0E0 solid;
+	float: right;
+	background: url(../img/搜索.png) no-repeat center center;
+	background-size: 20px 20px;
+}
+.submit:hover{
+	height: 55px;
+	width: 52px;
+	float: right;
+	background-color: #ff6700;
+}
+/* 列表图文导航 */
+.listimg{
+	width: 1226px;
+	height: 460px;
+	margin: 0 auto;
+	background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9ebff5f5c1f52f2dbdd611897adbefd4.jpg");
+	background-size: contain;
+}
+.listimg_left{
+	width: 234px;
+	height: 460px;
+	background-color: rgba(105,101,101,.6);
+}
+ .listimg_left ul{
+	list-style: none;
+	float: left;
+	margin-top: 18px;
+}
+.listimg_left ul li{
+	height: 42px;
+	width: 234px;
+}
+.listimg_left ul li a{
+	text-decoration: none;
+	color: white;
+	line-height: 42px;
+	font-size: 14px;
+	margin-left: 20px;
+}
+.listimg_left ul li i{
+	width: 14px;
+	height: 14px;
+	float: right;
+	color: white;
+	line-height: 42px;
+	margin-right: 20px;
+}
+.listimg_right{
+	width: 766px;
+}
+.listimg_left ul li:hover{
+	background: #ff6700;
+} 
+/* 图文菜单导航 */
+.all_imgnav{
+	width: 100%;
+	height: 170px;
+	float: left;
+	margin-top: 20px;
+}
+.imgnav{
+	width: 1226px;
+	height: 170px;
+	margin: auto;
+}
+.imgnav .imgnav1{
+	width: 234px;
+	height: 170px;
+	float: left;
+	background-color: #5f5750;
+	/* position: relative; */
+}
+.imgnav .imgnav1 ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.imgnav1 ul li{
+	width: 70px;
+	height: 80px;
+	float: left;
+	margin: 2px 2px 0 2px;
+	text-align: center;
+}
+/* 竖线和横线 */
+.imgnav1 ul .vert_line{
+	 width: 1px;
+	height: 76px;
+	border-left: 1px solid gray;
+	margin: 5px 0 0 0;
+	/*position: absolute; 
+	 right: 150px;
+	bottom: 80px; */
+}
+.line{
+	border-top: 1px solid grey;
+}
+.imgnav .imgnav1 ul li p{
+	color: #B0B0B0;
+	font-size: 12px;
+	margin-top: 5px;
+}
+.imgnav1 ul li img{
+	width: 24px;
+	height: 24px;
+	margin-top: 20px;
+	background-size: contain;
+	/* margin-left: 10px; */
+}
+.imgnav2,.imgnav3,.imgnav4{
+	width: 316px;
+	height: 170px;
+	float: left;
+	margin-left: 14.3px;
+}
+.imgnav2{
+	background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e5f20a62c3d5b3d6806bd51ab6c5dd12.jpg") no-repeat center center;
+	background-size: contain;
+}
+.imgnav3{
+	background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8a43378b96501d7e227a9018fe2668c5.jpg") no-repeat center center;
+	background-size: contain;
+}
+.imgnav4{
+	background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/793913688bfaee26b755a0b0cc8575fd.jpg") no-repeat center center;
+	background-size: contain;
+}
+*{
+	padding: 0;
+}
+.topimg{
+	background-image: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/717ab555092563ae0751a7069f0b11da.jpeg");
+	width: 100%;
+	height: 120px;
+	background-size: auto  120px; 
+}
+
+.navdiv{
+	width: 100%;
+	height: 40px;
+	background-color: rgb(51, 51, 51);
+}
+/* 导航栏 */
+.listdiv{
+	width: 1226px;
+	height: 40px;
+	margin: auto;
+}
+.listdiv ul{
+	list-style-type: none;
+	margin: 0;
+}
+.listdiv ul li{
+	float: left;
+}
+.listdiv ul li a{
+	line-height: 40px;
+	text-decoration: none;
+	color: #b0b0b0;
+	font-size: 12px;
+	font-family: Helvetica Neue,Helvetica;
+}
+.listdiv ul li a:hover{
+	color: white;
+}
+.listdiv ul li span{
+	color: #424242;
+	font-size: 12px;
+	margin: 0 3.6px;
+}
+
+/* 购物车 */
+.cardiv{
+	height: 40px;
+	width: 120px;
+	background-color: #424242;
+	float: right;
+}
+.cardiv i{
+	width: 16.7px;
+	height: 18px;
+	margin-left: 20px;
+	line-height: 40px;
+	font-size: 20px;
+	color:  #b0b0b0;
+}
+.cardiv a{
+	color: #B0B0B0;
+	font-size: 12px;
+	line-height: 40px;
+	text-decoration: none;
+	margin-left: 5px;
+}
+#fright{
+	float: right;
+	margin-right: 15px;
+}
+/* 分类菜单的div */
+.menudiv .menudiv_inner{
+	width: 1226px;
+	height: 55px;
+	margin: auto;
+}
+.logodiv{
+	width: 55px;
+	height: 55px;
+	float: left;
+	background-color: #ff6700;
+	background-image: url("https://s01.mifile.cn/i/mi-logo.png");
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+
+.menudiv ul{
+	list-style-type: none;
+	margin-left: 179px;
+}
+.menudiv ul li{
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.menudiv ul li a{
+	line-height: 55px;
+	text-decoration: none;
+	color: #333;
+	font-size: 16px;
+	font-family: Helvetica Neue,Helvetica;
+	
+}
+.menudiv ul li a:hover{
+	color: #ff6700;
+}
+
+.searchdiv{
+	width: 296px;
+	height: 50px;
+	float: right;
+}
+.iptdiv{
+	width: 245px;
+	height: 48px;
+	float: left;
+	border-bottom: 1px solid #e0e0e0;
+	border-top: 1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+}
+.iptdiv input{
+	border: none;
+	height: 48px;
+	width: 245px;
+}
+.btndiv{
+	width: 48px;
+	height: 48px;
+	float: right;
+	border: 1px solid #e0e0e0;
+	text-align: center;
+	line-height: 48px;
+}
+.btndiv:hover{
+	background-color: #FF6700;
+	color: #FFFFFF;
+	border: 1px solid  #FF6700;
+}
+
+/* 大图广告div */
+.adiv{
+	width: 100%;
+	height: 460px;
+	
+}
+.adddiv{
+	height: 460px;
+	width: 1226px;
+	background-color: red;
+	margin: 20px auto;
+	background-image: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9ebff5f5c1f52f2dbdd611897adbefd4.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+}
+.leftmenudiv{
+	width: 234px;
+	height: 460px;
+	background-color: rgba(255,255,255,0.2);
+}
+.leftmenudiv ul{
+	list-style-type: none;
+	margin-top: 15px;
+	float: left;
+}
+.leftmenudiv ul li{
+	width: 234px;
+	height: 42px;
+	
+}
+.leftmenudiv ul li:hover{
+	background-color:#FF6700 ;
+}
+.leftmenudiv ul li a{
+	text-decoration: none;
+	margin-left: 20px;
+	color: white;
+	font-size: 14px;
+	line-height: 42px;
+	
+}
+.leftmenudiv ul li i{
+	float: right;
+	margin-right: 20px;
+	color: white;
+	font-size: 14px;
+	line-height: 42px;
+}
+
+/* 闪购 */
+.shangoudiv{
+	width: 100%;
+	height: 170px;
+	float: left;
+	margin-top: 20px;
+}
+.redmidiv{
+	width: 1226px;
+	height: 170px;
+	margin: auto;
+}
+.red1{
+	width: 234px;
+	height: 170px;
+	background-color: #5f5750;
+	float: left;
+}
+.red1 ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.red1 ul li{
+	float: left;
+	width: 70px;
+	height: 80px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 2px;
+	text-align: center;
+	
+}
+.red1 .lineli{
+	height: 76px;
+	width: 1px;
+	margin: 5px 0 0 0;
+	border-left: 1px solid grey;
+}
+/* 横线 */
+.line{
+	border-top: 1px solid grey;
+}
+.red1 ul li img{
+	margin-top: 20px;
+	width: 24px;
+	height: 24px;
+	background-size: contain;
+	
+}
+.red1 ul li p{
+	font-size: 12px;
+	color: #FFFFFF;
+	margin-top: 5px;
+}
+.red2,.red3,.red4{
+	width: 316px;
+	height: 170px;
+	float: left;
+	margin-left: 14.3px;
+}
+.red2{
+	background-image: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e5f20a62c3d5b3d6806bd51ab6c5dd12.jpg");
+	background-size: contain;
+}
+.red3{
+	background-image: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8a43378b96501d7e227a9018fe2668c5.jpg");
+	background-size: contain;
+}
+.red4{
+	background-image: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/793913688bfaee26b755a0b0cc8575fd.jpg");
+	background-size: contain;
+}
+
+/* 大灰色背景div */
+.bigdiv{
+	width: 100%;
+	height: 6035px;
+	/* background-color: #f5f5f5; */
+	background-color: #E0E0E0;
+	float: left;
+	margin-top: 20px;
+}
+/* 小米闪购 */
+.bigdiv .title2{
+	height: 57.6px;
+	width: 1226px;
+	margin: 0 auto;
+}
+h2{
+	width: 200px;
+	height: 58px;
+	font-size: 22px;
+	color: #333;
+	font-family: Helvetica Neue,Helvetica;
+	font-weight: 400;
+	line-height: 58px;
+}
+.phone_h2right{
+	float: right;
+}
+.mishangoudiv{
+	width: 1260px;
+	height: 340px;
+	margin: auto;
+}
+/* 灰色底下大背景 */
+.bigdiv ul{
+	list-style-type: none;
+}
+/* 分类栏目的模板 */
+.bigdiv ul li{
+	width: 234px;
+	height: 340px;
+	margin-left: 14px;
+	float: left;
+	background-color: white;
+	text-align: center;
+	position: relative;
+}
+.bigdiv ul li a{
+	display: block;
+	width: 234px;
+	height: 30px;
+	color: #ef3a3b;
+	font-size: 21px;
+	font-family: Helvetica Neue,Helvetica;
+	margin-top: 45px;
+}
+.bigdiv ul li span{
+	float: left;
+	display: block;
+	background-color: #605751;
+	width: 46px;
+	height: 46px;
+	font-size: 21px;
+	line-height:46px ;
+	margin-top: 30px;
+}
+.mishangoudiv ul li .endtime_p{
+	color: rgba(0,0,0,.54);
+}
+.bigdiv ul li i{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 46px;
+	font-size: 21px;
+	line-height:46px ;
+	font-style: normal;
+	margin-top: 30px;
+	}
+#mleft{
+	margin-left: 40px;
+}
+.bigdiv ul li .goodsimg{
+	width: 160px;
+	height: 160px;
+	margin-top: 25px;
+}
+.bigdiv ul li .title{
+	color: #212121;
+	font-size: 14px;
+}
+.bigdiv ul li h3{
+	color: #b0b0b0;
+	font-size: 12px;
+	margin-top: 5px;
+}
+.bigdiv ul li .newprice{
+	color: #ff6709;
+	font-size: 14px;
+	background-color: white;
+	margin-left: 70px;
+	margin-top: 10px;
+}
+.bigdiv ul li .oldprice{
+	color: #b0b0b0;
+	font-size: 14px;
+	background-color: white;
+	text-decoration: line-through;
+	margin-top: 10px;
+}
+/* 手机banner */
+.phone_banner{
+	width: 1226px;
+	height: 120px;
+	background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a59db7dac2804ee2b5c7be1b02b3770e.jpg") no-repeat center center;
+	background-size: contain;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+/* 手机模块栏目 */
+/* 全部h2样式 */
+.title_h2{
+	height: 57.6px;
+	width: 1226px;
+	margin: 0 auto;
+}
+.title_h2 h2{
+}
+.title_h2 .title_h2_left{
+	height: 40px;
+	width: 50px;
+	float: left;
+}
+.title_h2 .title_h2_right{
+	margin-top: 20px;
+	float: right;
+}
+.title_h2 .title_h2_right div{
+	float: left;
+}
+.title_h2 .title_h2_right .div_left{
+	width: 32px;
+	height: 23px;
+	color: #ff6700;
+	border-bottom: 3px #ff6700 solid;
+	margin-right: 20px;
+}
+.title_h2 .title_h2_right .div_left p{
+	text-align: center;
+}
+.phone,.TV,.smart,.match,.parts,.near_thing{
+	width: 1226px;
+	height: 614px;
+	margin: 0 auto;
+}
+/* 手机分类左边样式 */
+.phone .phone_left{
+	width: 234px;
+	height: 614px;
+	background: url("http://cdn.cnbj1.fds.api.mi-img.com/mi-mall/574c6643ab91c6618bfb2d0e2c761d0b.jpg");
+	background-size: contain;
+	float: left;
+}
+.phone .phone_right{
+	width: 992px;
+	height: 614px;
+	float: right;
+}
+.phone .phone_right ul li,.TV ul li,.smart ul li,.match ul li,.parts ul li,.near_thing ul li{
+	height: 300px;
+	margin-bottom: 14px;
+}
+.bigdiv .phone ul li span,.bigdiv .smart ul li span,.bigdiv .match ul li span,.bigdiv .parts ul li span,.bigdiv .near_thing ul li span,#nor_price{
+	margin: 0;
+	padding: 0;
+	width: 80px;
+	position: absolute;
+	left: 35%;
+}
+/* 家电banner */
+.TV_banner{
+	width: 1226px;
+	height: 120px;
+	background: url("http://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c3b86ede4dd31d7c126d56fbdde4f855.jpg") no-repeat center center;
+	background-size: contain;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+/* 家电栏目&智能栏目 */
+.bigdiv .TV ul li,.smart ul li,.match ul li,.parts ul li,.near_thing ul li{
+	margin-left: 0;
+	margin-right: 14px;
+}
+.bigdiv #nor_price{
+	margin-top: 10px;
+}
+.bigdiv .TV ul li span{
+	width: 50px;
+}
+#endmargin{
+	margin-right: 0px;
+}
+#endblock{
+	height: 143px;
+	margin-right: 0;
+}
+.bigdiv ul #endblock p{
+	font-size: 14px;
+	text-align: left;
+    margin: 0;
+}
+#endblock img{
+	width: 80px;
+	height: 80px;
+}
+#endblock .endblock_left{
+	margin-top: 40px;
+	float: left;
+	margin-left: 20px;
+}
+#endblock .endblock_right{
+	float: right;
+	margin-top: 35px;
+	margin-right: 25px;
+}
+#endblock i{
+	font-size: 54px;
+	color: #ff6700;
+	margin-right: 45px;
+}
+#endblock  h2{
+	width: 80px;
+	height: 50px;
+	font-size: 18px;
+	text-align: left;
+}
+/* 电视栏目第一行第一列poster */
+.bigdiv .TV ul .TV_poster{
+	background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f256b81e4233333692eece77ed06ebc2.jpg");
+	background-size: contain;
+}
+/* 电视栏目第二行第一列poster */
+.bigdiv .TV ul .TV_poster2{
+	background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/7e03c0fe4af4d613603f22aaa8e0ea00.jpg");
+}
+/* 智能banner */
+.smart_banner{
+	width: 1226px;
+	height: 120px;
+	background: url("http://cdn.cnbj1.fds.api.mi-img.com/mi-mall/59e8fc8ba9718c266882719fb4bbcedd.jpg") no-repeat center center;
+	background-size: contain;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+/* 搭配banner */
+.match_banner{
+	width: 1226px;
+	height: 120px;
+	background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/45207e414f661234bfc3909d11ad2bab.jpg") no-repeat center center;
+	background-size: contain;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+/* 小米智能生活banner */
+.MsmartLive_banner{
+	width: 1226px;
+	height: 120px;
+	background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1615d1842fe85914a545297836a44271.jpg") no-repeat center center;
+	background-size: contain;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+/* 小米周边banner */
+.near_thing_banner{
+	width: 1226px;
+	height: 120px;
+	background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9880db34d227b6c1df5b45cb7df4f465.jpg") no-repeat center center;
+	background-size: contain;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+/* 视频栏目 */
+.video_banner{
+	width: 1226px;
+	height: 120px;
+	background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/88e35cffc82cd98cd53172460067af17.jpg") no-repeat center center;
+	background-size: contain;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+/* 视频内容 */
+.bigdiv .video{
+	width: 1226px;
+	height: 285px;
+	margin: 0 auto;
+}	
+.bigdiv .video ul li{
+	width: 296px;
+	height: 285px;
+	background-color: white;
+	margin: 0;
+	float: left;
+	margin-right: 14px;
+}
+.bigdiv .video ul .video_EndLi{
+	margin-right: 0px;
+}
+.bigdiv .video ul li p{
+	margin-top: 20px;
+}
+.bigdiv .video ul li h3{
+	margin-top: 10px;
+	font-weight: lighter;
+}
+.bigdiv .video ul li img{
+	width: 296px;
+	height: 180px;
+}
+.videoImg{
+	width: 296px;
+	height: 180px;
+	float: left;
+	background-color: #5F5750;
+	background-size: contain;
+	margin-bottom: 30px;
+}
+video{
+	width: 296px;
+	height: 180px;
+}
+.btn{
+	width: 32px;
+	height: 20px;
+	border: 2px solid #fff;
+	border-radius: 12px;
+	margin-bottom: -50px;
+	float: left;
+	transition: all 0.2s;
+	margin-top: -65px;
+	margin-left: 20px;
+}
+#triangle{
+	border-left: 6px solid #fff;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	width: 0;
+	height: 0;
+	margin-top:2px;
+	margin-left: 14px;
+	float: left;
+	margin-top: 2.5px;
+}
+/* 底部维修栏 */
+.repair{
+	width: 1226px;
+	height: 80px;
+	margin: 0 auto;
+	margin-top: 20px;
+	position: relative;
+	border-bottom: lightgray 1px solid;
+}
+.repair ul{
+	position: absolute;
+	top: 35%;
+}
+.repair ul li{
+	width: 241.2px;
+	height: 25px;
+	float: left;
+	border-right: 1px lightgray solid;
+	background-color:transparent;
+	margin: 0;
+}
+.repair ul li a{
+	margin: 0;
+	padding: 0;
+	color:  #616161;
+	font-size: 16px;
+	text-decoration: none;
+	line-height: 25px;
+	width: 140px;
+    text-align: center;
+}
+.repair ul li div{
+	margin: 0 auto;
+	width: 121px;
+}
+/* .repair ul li i{
+	margin: 0;
+	padding: 0;
+	float: left;
+	line-height: 25px;
+	font-size: 30px;
+	 transform: rotateY(180deg); 
+} */
+.repair ul li img{
+	width: 24px;
+	height: 25px;
+	float: left;
+}
